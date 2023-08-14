@@ -281,6 +281,8 @@ import java.util.Scanner;
 
             // Mostrar el reporte de caja con los ingresos por localidad y el total recaudado
             System.out.println("Reporte de caja:");
+            System.out.println(localidad1.getNombre() + ": $" + (localidad1.getPrecio() * localidad1.getBoletosVendidos()));
+            System.out.println(localidad5.getNombre() + ": $" + (localidad5.getPrecio() * localidad5.getBoletosVendidos()));
             System.out.println(localidad10.getNombre() + ": $" + (localidad10.getPrecio() * localidad10.getBoletosVendidos()));
             System.out.println("Total recaudado: $" + totalRecaudado);
         }
